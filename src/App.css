@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
+  background: linear-gradient(red, blue);
+  height: 100vh;
 }
 
 .App-logo {
@@ -37,18 +38,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 
-.login{
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-height: 100px;
-width: 300px;
-padding: 30px;
-border:2px solid rgb(4, 41, 111);
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  width: 300px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.333);
+  border-radius: 4px;
 }

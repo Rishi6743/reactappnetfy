@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>This is Rishi's APP </h1>
+      <div className="logo">netPay</div>
         <form>
       <div className='login'>
           <input type="text" placeholder='Username'/>
